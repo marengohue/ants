@@ -1,0 +1,19 @@
+{
+  "name": "ants",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marengohue/ants",
+  "author": "Eugene Rebedailo <mokonamodokidesu@gmail.com>",
+  "scripts": {
+    "build": "parcel build ./src/index.ts",
+    "watch": "parcel watch ./src/index.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/screeps": "^3.0.0",
+    "parcel": "^1.12.4",
+    "parcel-plugin-screeps": "^0.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
